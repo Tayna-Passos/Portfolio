@@ -129,13 +129,31 @@ section#projetos h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
 }
-
+/* Configuração base (Mobile: 1 card por linha) */
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    grid-template-columns: 1fr; 
     gap: 20px;
+    padding: 20px;
 }
 
+/* Tablets (2 cards por linha) */
+@media (min-width: 768px) {
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/* Para computadores (Desktop) */
+@media (min-width: 1024px) {
+    .project-grid {
+        display: grid;
+        /* Forçamos 2 colunas para fazer o quadrado 2x2 */
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 30px;
+        max-width: 900px; /* Diminuímos a largura máxima para os cards não ficarem gigantes */
+        margin: 0 auto;
+    }
+}
 .project-card {
     background-color: var(--bg-secondary);
     border-radius: 15px;
@@ -156,28 +174,26 @@ section#projetos h2 {
     width: 100%;
     display: block;
 }
-
 .project-content {
-    padding: 1rem 1.2rem 1.5rem;
+    padding: 1.5rem; /* Um pouco mais de respiro */
     color: var(--text-light);
     font-size: 0.95rem;
-    min-height: 210px;
+    /* Ajuste esse valor se o texto do Rayquaza 2.0 for muito grande */
+    min-height: 250px; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
+.project-content p {
+    flex-grow: 1; /* Empurra o botão sempre para o final do card */
+    margin-bottom: 1.5rem;
+    line-height: 1.6; /* Melhora a leitura do resumo */
+}
 .project-content h3 {
     margin-bottom: 0.8rem;
     font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
 }
-
-.project-content p {
-    flex: 1;
-    margin-bottom: 1rem;
-}
-
 .btn-project {
     background-color: var(--btn-bg);
     color: var(--bg-secondary);
