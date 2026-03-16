@@ -1,5 +1,4 @@
 # Oi, eu sou a Tayná! 👋✨
-
 <div align="center">
   <img src="https://i.gifer.com/4S0Z.gif" alt="Jake absorvendo conhecimento" width="400">
 </div>
@@ -48,7 +47,7 @@ Se horas de estudo fossem milhas, eu já teria dado a volta ao mundo:
 Se você quer falar sobre código, UX, ou apenas descobrir qual o próximo curso que eu vou inventar de fazer, me chama!
 
 * 🌍 **Meu Portfólio:** [Dá uma olhada aqui!](https://tayna-passos.github.io/Portfolio/)
-* 💼 **LinkedIn:** [Seu link aqui]
+* 💼 **LinkedIn:** [https://www.linkedin.com/in/tayn%C3%A1-costa-25231b347/]
 * 💬 **Status atual:** Tentando não viciar em mais um framework.
 
 ---
