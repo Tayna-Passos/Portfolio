@@ -1,6 +1,6 @@
 # Oi, eu sou a Tayná! 👋✨
 <div align="center">
-  <img src="https://i.gifer.com/4S0Z.gif" alt="Jake absorvendo conhecimento" width="400">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZkMnE4MWJvOW9yZXN4ZndqMzFqdDhyMXJ3N2pjcTRtdTNqZzhieCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6Mb80E5T98uR7bS0/giphy.gif" alt="Homer Multitarefa" width="400">
 </div>
 
 Seja bem-vindo(a) ao meu cantinho no GitHub! 
