@@ -5,7 +5,7 @@
 
 Seja bem-vindo(a) ao meu cantinho no GitHub! 
 
-Sou estudante de **Análise e Desenvolvimento de Sistemas na UNINOVE** e uma entusiasta da tecnologia que não consegue ver um curso novo sem clicar em "inscrever-se". Do Front-end à Nuvem, estou sempre hackeando o meu próprio conhecimento. 🚀
+Sou formada em **Análise e Desenvolvimento de Sistemas na UNINOVE** e uma entusiasta da tecnologia que não consegue ver um curso novo sem clicar em "inscrever-se". Do Front-end à Nuvem, estou sempre hackeando o meu próprio conhecimento. 🚀
 
 ---
 
